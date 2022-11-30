@@ -1,0 +1,30 @@
+cd <FILEPATH>: Go to file path. Folders with spaces need quotation marks around them
+git checkout <BRANCH>: Go to specific branch
+
+Copying files from main:
+Navigate to project folder
+git checkout main
+git pull
+IF BRANCH DOESN'T EXIST: git checkout -b <BRANCH NAME>
+IF BRANCH EXISTS: git checkout <BRANCH NAME>
+git merge main
+
+Pushing changes to your branch:
+Save your changes in Unity
+git checkout <BRANCH NAME>
+git add -A
+git commit -m "<DESCRIPTION>"
+git push origin <BRANCH NAME>
+git checkout main
+git branch -d <BRANCH NAME>
+
+Merge your changes to the main branch:
+Go to github
+Go to pull requests
+New pull request
+base: main, compare: <BRANCH NAME>
+Create pull request
+Create, after a second it should say they can be merged automatically
+Merge pull request
+Confirm merge
+Delete branch
