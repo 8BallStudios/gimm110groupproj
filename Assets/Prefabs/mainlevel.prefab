@@ -448,52 +448,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
         type: 3}
-      propertyPath: environmentPieces.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
-      propertyPath: environmentPieces.Array.data[1].name
-      value: EnableAliens
-      objectReference: {fileID: 0}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
-      propertyPath: environmentPieces.Array.data[2].name
-      value: EnableBouncePad
-      objectReference: {fileID: 0}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
-      propertyPath: environmentPieces.Array.data[3].name
-      value: EnableTurret
-      objectReference: {fileID: 0}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
-      propertyPath: environmentPieces.Array.data[0].pieces.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
-      propertyPath: environmentPieces.Array.data[1].pieces.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
-      propertyPath: environmentPieces.Array.data[2].pieces.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
-      propertyPath: environmentPieces.Array.data[3].pieces.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
       propertyPath: environmentPieces.Array.data[0].pieces.Array.data[0]
-      value: 
-      objectReference: {fileID: 908710184}
-    - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,
-        type: 3}
-      propertyPath: environmentPieces.Array.data[0].pieces.Array.data[1]
       value: 
       objectReference: {fileID: 908710184}
     - target: {fileID: 6324135900747574906, guid: 8bf332cabecc44540b530ce581440366,

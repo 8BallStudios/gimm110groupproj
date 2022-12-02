@@ -49,3 +49,15 @@ MonoBehaviour:
     enabled: 0
     pieces:
     - {fileID: 0}
+  - name: EnableAliens
+    enabled: 0
+    pieces:
+    - {fileID: 0}
+  - name: EnableBouncePad
+    enabled: 0
+    pieces:
+    - {fileID: 0}
+  - name: EnableTurret
+    enabled: 0
+    pieces:
+    - {fileID: 0}
