@@ -101,8 +101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b8723a86f122444ea2aa2f929554644, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debug: {fileID: 0}
   moveSpeed: 0.5
-  jumpForce: 50
+  jumpForce: 60
   jumpableGround:
     serializedVersion: 2
     m_Bits: 0
