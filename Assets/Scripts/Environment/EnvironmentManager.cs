@@ -23,14 +23,6 @@ public class EnvironmentManager : MonoBehaviour
 
     public List<EnvironmentPiece> environmentPieces = new List<EnvironmentPiece>();
 
-    //This is temporary. Eventually, each marker will call EnablePiece() using a different environment modifier
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Q)) EnablePiece("Fire");
-        if (Input.GetKeyDown(KeyCode.W)) EnablePiece("ElectricWires");
-        if (Input.GetKeyDown(KeyCode.E)) EnablePiece("Turrets");
-    }
-
     public void Start()
     {
         instance = this;
