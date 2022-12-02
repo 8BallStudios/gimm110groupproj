@@ -25,7 +25,7 @@ MonoBehaviour:
       m_GuidHigh: 4055759650275267064
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: mainlevel
+    m_Name: SpawnLevel
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4911958802439300562
