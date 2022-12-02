@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 982932914767753631}
   - component: {fileID: 9088894473564990077}
   m_Layer: 0
-  m_Name: MainFlame
+  m_Name: Orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,8 +115,8 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 5
+      minMaxState: 0
+      scalar: 3
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -169,7 +169,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: -3
+      scalar: -15
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -607,8 +607,8 @@ ParticleSystem:
     rotation3D: 0
     gravityModifier:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: -0.025
+      minMaxState: 0
+      scalar: 0
       minScalar: -0.01
       maxCurve:
         serializedVersion: 2
@@ -748,7 +748,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 5.5
+      value: 8.07
       mode: 0
       spread: 0
       speed:
@@ -1305,9 +1305,9 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0, b: 0, a: 1}
-        key1: {r: 1, g: 0.53443706, b: 0, a: 0}
-        key2: {r: 1, g: 1, b: 0, a: 0}
+        key0: {r: 0, g: 0.6792453, b: 0.042148374, a: 1}
+        key1: {r: 0.48514664, g: 1, b: 0, a: 0.24313726}
+        key2: {r: 0.67860556, g: 1, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
@@ -1322,7 +1322,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 65535
+        atime1: 34695
         atime2: 65535
         atime3: 0
         atime4: 0
@@ -1331,7 +1331,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_NumColorKeys: 3
-        m_NumAlphaKeys: 2
+        m_NumAlphaKeys: 3
       minGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -2684,7 +2684,7 @@ ParticleSystem:
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4824,7 +4824,7 @@ GameObject:
   - component: {fileID: 7840604504348057315}
   - component: {fileID: 1069157482667361126}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5034,8 +5034,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 1, b: 0, a: 1}
-      maxColor: {r: 1, g: 0, b: 0, a: 1}
+      minColor: {r: 0.28325713, g: 1, b: 0, a: 1}
+      maxColor: {r: 0, g: 0.4528302, b: 0.09464869, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -9693,7 +9693,7 @@ GameObject:
   - component: {fileID: 2301433954995448531}
   - component: {fileID: 3800631684840784354}
   m_Layer: 0
-  m_Name: EnableFire
+  m_Name: EnableAliens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9727,7 +9727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 809d3a2d660c4e44d8b6a640a5ad8f2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pieceName: EnableFire
+  pieceName: EnableAliens
 --- !u!1 &7630922871426872903
 GameObject:
   m_ObjectHideFlags: 0

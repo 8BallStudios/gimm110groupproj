@@ -37,3 +37,33 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: EnableFire
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4803781944512568822
+      m_GuidHigh: 2832675532736550046
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0.0635, y: 0.0889}
+    m_SpecifySize: 1
+    m_Name: EnableAliens
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5474246151936226223
+      m_GuidHigh: 14114115501332792727
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0.0635, y: 0.0889}
+    m_SpecifySize: 1
+    m_Name: EnableBouncePad
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5636636187066404399
+      m_GuidHigh: 8834517883620707250
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: EnableTurret
+    m_Texture: {fileID: 0}
