@@ -41,8 +41,8 @@ MonoBehaviour:
       m_GuidLow: 4803781944512568822
       m_GuidHigh: 2832675532736550046
     m_SerializedTextureGuid:
-      m_GuidLow: 0
-      m_GuidHigh: 0
+      m_GuidLow: 6234275467780277074
+      m_GuidHigh: 4084721364919530952
     m_Size: {x: 0.0635, y: 0.0889}
     m_SpecifySize: 1
     m_Name: EnableAliens
@@ -51,8 +51,8 @@ MonoBehaviour:
       m_GuidLow: 5474246151936226223
       m_GuidHigh: 14114115501332792727
     m_SerializedTextureGuid:
-      m_GuidLow: 0
-      m_GuidHigh: 0
+      m_GuidLow: 9075934347148371986
+      m_GuidHigh: 9749855498363770986
     m_Size: {x: 0.0635, y: 0.0889}
     m_SpecifySize: 1
     m_Name: EnableBouncePad
@@ -61,9 +61,29 @@ MonoBehaviour:
       m_GuidLow: 5636636187066404399
       m_GuidHigh: 8834517883620707250
     m_SerializedTextureGuid:
-      m_GuidLow: 0
-      m_GuidHigh: 0
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+      m_GuidLow: 18029262974954514668
+      m_GuidHigh: 11643943453266036408
+    m_Size: {x: 0.0635, y: 0.0889}
+    m_SpecifySize: 1
     m_Name: EnableTurret
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4842102532862304430
+      m_GuidHigh: 14407469356280717759
+    m_SerializedTextureGuid:
+      m_GuidLow: 1586553610716095251
+      m_GuidHigh: 505978956554922712
+    m_Size: {x: 0.0635, y: 0.0889}
+    m_SpecifySize: 1
+    m_Name: EnableArmor
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5290653077483030044
+      m_GuidHigh: 13555004294364102799
+    m_SerializedTextureGuid:
+      m_GuidLow: 12827501679206465032
+      m_GuidHigh: 16187923047538657610
+    m_Size: {x: 0.0635, y: 0.0889}
+    m_SpecifySize: 1
+    m_Name: EnableDoubleJump
     m_Texture: {fileID: 0}
