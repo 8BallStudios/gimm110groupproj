@@ -5,6 +5,7 @@ using UnityEngine;
 public class EscapePod : MonoBehaviour
 {
     [SerializeField] private Animator anim;
+    [SerializeField] private ParticleSystem particles;
     private bool activated = false;
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -15,6 +16,7 @@ public class EscapePod : MonoBehaviour
             GameObject player = collision.gameObject;
             player.GetComponent<SpriteRenderer>().enabled = false;
             anim.SetTrigger("Escape");
+            particles.Play();
         }
     }
 }
