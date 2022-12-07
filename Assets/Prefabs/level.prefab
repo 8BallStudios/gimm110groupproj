@@ -6795,21 +6795,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3751426134002695045}
     m_Modifications:
-    - target: {fileID: 4907004911691509713, guid: a31e3a65895160d42a57a50b9ec67dd3,
-        type: 3}
-      propertyPath: debug
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4907004911691509713, guid: a31e3a65895160d42a57a50b9ec67dd3,
-        type: 3}
-      propertyPath: jumpForce
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 4907004911691509713, guid: a31e3a65895160d42a57a50b9ec67dd3,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 0.001
-      objectReference: {fileID: 0}
     - target: {fileID: 4907004911691509719, guid: a31e3a65895160d42a57a50b9ec67dd3,
         type: 3}
       propertyPath: m_RootOrder
