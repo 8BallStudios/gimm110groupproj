@@ -4,8 +4,34 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private int health = 1;
+    public static Player instance;
+
+    public void Start()
+    {
+        instance = this;
+    }
+
     public void Die()
     {
         GetComponent<Animator>().SetTrigger("Die");
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("Trap")) TakeDamage();
+    }
+
+    public void IncreaseHealth()
+    {
+        health++;
+    }
+
+    public void TakeDamage()
+    {
+        health--;
+        //particles
+        //sfx
+        if (health <= 0) Die();
     }
 }

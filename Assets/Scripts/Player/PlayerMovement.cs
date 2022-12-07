@@ -59,11 +59,19 @@ public class PlayerMovement : MonoBehaviour
 
 
         //transform.position = new Vector3(transform.position.x, transform.position.y, GetComponentInParent<Transform>().position.z);
-        
+
     }
 
     public void Jump()
     {
+        rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.AddForce(new Vector2(0, jumpForce));
+
+        anim.SetBool("jump", true);
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        anim.SetBool("jump", false);
     }
 }
