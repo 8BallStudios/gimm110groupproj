@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.rotation = Quaternion.identity;
         //Movement
-        transform.position = new Vector3(transform.position.x + (dirX * moveSpeed), transform.position.y, transform.parent.transform.position.z);
+        transform.position = new Vector3(transform.position.x + (dirX * moveSpeed * Time.deltaTime), transform.position.y, transform.parent.transform.position.z);
         //rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
         //Flip the sprite if facing left
