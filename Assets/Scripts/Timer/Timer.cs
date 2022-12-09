@@ -32,6 +32,12 @@ public class Timer : MonoBehaviour
     {
         if (timerActive) remainingTime -= Time.deltaTime;
         timerText.text = Mathf.RoundToInt(remainingTime).ToString();
+
+        if (remainingTime <= 0)
+        {
+            UIManager.instance.OutOfTime();
+            Time.timeScale = 0;
+        }
     }
 
     public void StartTimer()

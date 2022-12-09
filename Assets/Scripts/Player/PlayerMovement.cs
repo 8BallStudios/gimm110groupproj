@@ -42,8 +42,8 @@ public class PlayerMovement : MonoBehaviour
 
         transform.rotation = Quaternion.identity;
         //Movement
-        transform.position = new Vector3(transform.position.x + (dirX * moveSpeed), transform.position.y, transform.parent.transform.position.z);
-        //rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        //transform.position = new Vector3(transform.position.x + (dirX * moveSpeed * Time.deltaTime), transform.position.y, transform.parent.transform.position.z);
+        if (dirX != 0) rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
         //Flip the sprite if facing left
         if (dirX < 0)
@@ -56,10 +56,6 @@ public class PlayerMovement : MonoBehaviour
             GetComponent<SpriteRenderer>().flipX = false;
             facingRight = true;
         }
-
-
-        //transform.position = new Vector3(transform.position.x, transform.position.y, GetComponentInParent<Transform>().position.z);
-
     }
 
     public void Jump()

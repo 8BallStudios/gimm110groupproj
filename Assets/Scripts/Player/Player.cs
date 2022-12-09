@@ -15,6 +15,13 @@ public class Player : MonoBehaviour
     public void Die()
     {
         GetComponent<Animator>().SetTrigger("Die");
+        UIManager.instance.Lose();
+        StartCoroutine("Pause");
+    }
+
+    public IEnumerator Pause()
+    {
+        yield return new WaitForSeconds(2f);
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
