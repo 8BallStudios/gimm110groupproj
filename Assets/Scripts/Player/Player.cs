@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
 
     public void Die()
     {
-        GetComponent<Animator>().SetTrigger("Die");
+        GetComponent<Animator>().SetTrigger("die");
         UIManager.instance.Lose();
         StartCoroutine("Pause");
     }
@@ -26,11 +26,7 @@ public class Player : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.CompareTag("Trap"))
-        {
-            print("col");
-            TakeDamage();
-        }
+        if (collision.transform.CompareTag("Trap")) TakeDamage();
     }
 
     public void IncreaseHealth()
