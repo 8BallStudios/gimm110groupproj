@@ -26,7 +26,11 @@ public class Player : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.CompareTag("Trap")) TakeDamage();
+        if (collision.transform.CompareTag("Trap"))
+        {
+            print("col");
+            TakeDamage();
+        }
     }
 
     public void IncreaseHealth()
