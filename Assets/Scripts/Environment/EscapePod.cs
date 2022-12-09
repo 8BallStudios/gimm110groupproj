@@ -17,6 +17,14 @@ public class EscapePod : MonoBehaviour
             player.GetComponent<SpriteRenderer>().enabled = false;
             anim.SetTrigger("Escape");
             particles.Play();
+
+            StartCoroutine("UIUpdate");
         }
+    }
+
+    private IEnumerator UIUpdate()
+    {
+        yield return new WaitForSeconds(7.5f);
+        UIManager.instance.Win();
     }
 }
